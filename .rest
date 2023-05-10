@@ -1,0 +1,13 @@
+### Get Biodata
+GET http://localhost:5000/biodata?nama=Ryan&tempat-lahir=tasikmalaya&tanggal-lahir=24%10%2002&alamat=jareged
+
+### Post Biodata
+POST http://localhost:5000/biodata
+Content-Type: application/json
+
+{
+    "nama":"ryan",
+    "tempat-lahir":"tasikmalaya",
+    "tanggal-lahir":"24 10 2002",
+    "alamat":"jareged"
+}
